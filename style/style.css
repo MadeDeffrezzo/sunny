@@ -1,0 +1,547 @@
+*{
+    margin:0;
+    padding: 0;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.company-name {
+  font-size: 24px;
+  font-family: Open Sans;
+  color: #333333;
+  margin-left: 10px;
+}
+
+.header-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-family: Open Sans;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.search-panel {
+  width: 200px;
+  height: 30px;
+
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+.search-panel input {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: Open Sans;
+  color: #666666;
+  border: none;
+  padding: 10px;
+}
+
+.login-button {
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 11px 7px rgb(24 137 224);
+  border: 1px solid #163286;
+  border-radius: 15px;
+  background-color: black;
+  font-size: 16px;
+  font-family: Open Sans;
+  color: white;
+  cursor: pointer;
+}
+
+.img-rob{
+    width: 300px;
+}
+
+.section-max-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/image-Photoroom2.png);
+    border-radius: 52px;
+    gap: 40px;
+    background-size: cover;
+}
+
+.main-section-cont p{
+    margin: 30px 0px;
+}
+
+.main-section-cont h1{
+    font-weight: normal;
+    font-size: 67px;
+}
+
+.main-section-cont button{
+    background-color: #0029CB;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 7px;
+}
+#main-sunny{
+    margin-top: 100px;
+    border-radius: 52px;
+}
+
+.sp-text-cont-line{
+    border-left: 5px solid #0029CB;
+    padding-left: 13px;
+}
+
+section{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#section-info-text{
+    margin-top: 140px;
+}
+
+.info-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.item{
+    border: 1px solid #09C4FF;
+    border-top: none;
+    border-bottom: none;
+    padding: 50px;
+
+}
+
+.item h1{
+    font-size: 100px;
+}
+
+.item p{
+    font-size: 26px;
+}
+
+.info-box .item:first-child {
+ 
+    border-right: none; /* Убираем правую границу у последнего блока */
+    border-left: none; /* Убираем левую границу у первого блока */
+}
+.info-box .item:last-child {
+    border-left: none; /* Убираем левую границу у первого блока */
+    border-right: none; /* Убираем правую границу у последнего блока */
+}
+
+.onasmain {
+    display: flex; /* Используем Flexbox для расположения элементов */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+    position: relative; /* Для позиционирования правого блока */
+    height: 600px; /* Установите высоту контейнера по вашему усмотрению */
+}
+.left-opt {
+    max-width: 474px; /* Ограничиваем ширину правого блока по желанию */
+}
+.left-opt p{
+font-size: 30px;
+}
+
+.left-opt h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #09C4FF; /* Параметры: смещение по X, смещение по Y, размытие, цвет */
+}
+
+.right-opt {
+    position: absolute; /* Абсолютное позиционирование для правого блока */
+    bottom: 0; /* Прикрепляем к нижней части контейнера */
+    right: 0; /* Прикрепляем к правой части контейнера */
+    max-width: 540px; /* Ограничиваем ширину правого блока по желанию */
+}
+.right-opt p{
+font-size: 30px;
+}
+.right-opt li{
+font-size: 30px;
+}
+
+.box-items-r{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.box-item-r{
+    border-radius: 15px;
+    background-color: white;
+}
+
+.text-box h3{
+    color: black;
+    text-align: center;
+}
+
+#services h1{
+    font-size: 50px;
+   text-align: center;
+   margin: 100px 0px;
+    text-shadow: 2px 2px 4px #09C4FF; /* Параметры: смещение по X, смещение по Y, размытие, цвет */
+}
+
+.cntr{
+    text-align: center;
+}
+
+.rzr-button{
+    padding: 8px 15px;
+    margin: 67px 0;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 7px rgb(24 137 224);
+    border: 1px solid #163286;
+    border-radius: 15px;
+}
+
+.box-lest {
+    display: flex; /* Используем Flexbox для расположения элементов */
+    align-items: flex-start; /* Выравниваем элементы по левому краю */
+    justify-content: space-between;
+}
+.item-box {
+    margin-bottom: 20px; /* Отступ между блоками */
+    width: 427px;
+    height: 459px;
+    transition: transform 0.2s; /* Плавный переход при наведении (опционально) */
+    background-color: #16328630;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.item-box:nth-child(1) {
+    transform: translateY(0); /* Первый блок на своем месте */
+}
+.item-box:nth-child(2) {
+    transform: translateY(60px) translateX(20px); /* Второй блок ниже и правее первого */
+}
+.item-box:nth-child(3) {
+    transform: translateY(120px) translateX(40px); /* Третий блок ниже и правее второго */
+}
+
+.box-lest{
+    background-image: url(/img/8\ 1.png);
+    max-width: 100%; /* Ограничиваем ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+    background-size: cover;
+}
+
+.item-box p{
+    font-size: 26px;
+}
+.item-box h1{
+    font-size: 40px;
+}
+
+
+.img-item-box{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#advantages h1{
+    font-size: 50px;
+    text-align: right;
+}
+
+.box-centerzp{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 100px 0px
+}
+
+.left-info-center{
+    max-width: 300px;
+}
+.right-info-center{
+    max-width: 300px;
+}
+
+.box-chatbot{
+    background-image: url(/img/image-Photoroom\ 3\ \(1\).png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.left-box-chatbot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#projects button{
+    width: 315px;
+    height: 48px;
+    box-shadow: 0px 0px 11px 7px rgb(24 137 224);
+    border: 1px solid #163286;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 16px;
+    font-family: Open Sans;
+    color: white;
+    cursor: pointer;
+  }
+
+.img-line{
+    width: 100%;
+}
+
+.rabbox-centerzp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-rabbox{
+    max-width: 400px;
+    text-align: center;
+}
+
+.item-rabbox p{
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+#etaprab button{
+    color: white;
+    background-color: #0029CB;
+    width: 22%;
+    height: 48px;
+    border: none;
+    border-radius: 11px;
+    margin-top: 90px;
+}
+
+#etaprab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+#etaprab h1{
+    margin-bottom: 76px;
+
+}
+
+#price{
+    background-image: url(/img/4.png);
+    background-size: cover;
+}
+
+.item-slider {
+    width: 300px; /* Ширина каждого слайда */
+    max-width: 300px;
+    margin: 0 10px; /* Отступы между слайдами */
+    box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+    background-color: white;
+    color: black;
+    flex: 0 0 auto;
+}
+
+.item-slider p {
+    color: black;
+}
+
+.item-slider h1 {
+    color: black;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 30px 0 0;
+  padding: 0;
+}
+.slick-dots li {
+  cursor: pointer;
+  display: block;
+  margin: 0 5px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.slick-dots li button {
+  background: transparent;
+  border: 0;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  outline: none;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+}
+.slick-dots li button:before {
+  color: #0085FF;
+  content: "-";
+  font-size: 80px;
+  line-height: 20px;
+  opacity: 0.25;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.slick-dots li button:hover, .slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+  color: #0085FF;
+  opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+  color: #0085FF;
+  opacity: 1;
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+}
+.column {
+    width: 48%;
+}
+.tab {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.tab-title {
+    font-weight: bold;
+}
+.tab-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.tab:after {
+    content: '+';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+#question{
+    background-image: url(/img/61.png);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.question-zv{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.logo-ftr{
+    display: flex;
+    gap: 45px;
+}
+
+.box-ftr{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+
+.txt-ftr{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-half{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-container input{
+    width: 70%;
+    padding: 15px 10px;
+    margin-top: 33px;
+    border: 1px solid #2757FF;
+    border-radius: 5px;
+    color: black;
+}

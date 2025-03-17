@@ -1,0 +1,315 @@
+section{
+    width: 95%;
+    margin: 41px auto;
+
+}
+
+.boxmain{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+margin: 0 auto;
+
+}
+
+.profile-container{
+    max-width: 399px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+.menu-item {
+    width: 327px; /* Ширина */
+    height: 47px; /* Высота */
+    display: flex; /* Используем flex для выравнивания текста */
+    align-items: center; /* Вертикальное выравнивание текста */
+    justify-content: center; /* Горизонтальное выравнивание текста */
+    color: black; /* Цвет текста */
+    margin: 2px 0; /* Отступы между элементами */
+    font-size: 16px; /* Размер шрифта (по желанию) */
+}
+
+.spis{
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.timestamp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-stamp{
+    width: 106px;
+}
+
+
+.timeline {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 63%;
+    height: 125px; /* Высота графика */
+    margin: 5px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    margin: 0px 32px;
+}
+
+.shape-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 6px;
+    gap: 12px;
+}
+
+.circle {
+    width: 40px; /* Ширина круга */
+    height: 40px; /* Высота круга */
+    border-radius: 50%; /* Делаем круг */
+    
+}
+
+.nv{
+    background-color: #93A0D2; /* Цвет круга */
+}
+
+.vp{
+    background-color: #0029CB; /* Цвет круга */
+}
+
+.vx{
+    background-color: black;
+    color: white;
+}
+
+.menu-item .vx p{
+    color: white;
+}
+
+.square {
+    width: 40px; /* Ширина квадрата */
+    height: 40px; /* Высота квадрата */
+    border-radius: 2px;
+}
+
+.status-label {
+    text-align: center;
+    margin-bottom: 5px; /* Отступ между статусом и временем */
+    color: black;
+}
+
+.time-label {
+    text-align: center;
+    width: 106px;
+}
+
+.info-zakaz{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+
+.info-zakaz h3{
+    font-weight: bold;
+    color: black;
+}
+
+
+.itemzak{
+    border: none;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+}
+
+.txt-info-zakaz{
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-info-zakaz p{
+
+font-size: 16px;
+color: black;
+}
+
+.itemzakP{
+    font-size: 16px;
+}
+
+.txt-info-zakaz p span{
+    font-size: 18px;
+
+}
+    
+.info-zakaz h3{
+    margin-left: 10px;
+}
+
+.status{
+    width: 300px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.vib{
+    background-color: #ADBCF3;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Позиционирование фигур */
+.shape-container:nth-child(1) { left: 95%; } /* Квадрат в начале */
+.shape-container:nth-child(2) { left: 0%; } /* Круг 1 */
+.shape-container:nth-child(3) { left: 25%; } /* Круг 2 */
+.shape-container:nth-child(4) { left: 50%; } /* Круг 3 */
+.shape-container:nth-child(5) { left: 69%; } /* Квадрат в конце */
+.shape-container:nth-child(6) { left: 93%; } /* Квадрат в конце */
+
+.cntr{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    font-size: 14px;
+    color: #727272;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.txt-calculation{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-style input{
+    height: 50px;
+    margin: 10px;
+}
+
+.form-style select {
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.372);
+    margin: 10px;
+}
+
+.weight{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tgruz{
+    justify-content: space-between; 
+}
+
+input[type="number"] {
+    width: 50%;
+}
+
+input[type="date"] {
+    width: 50%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.box-calc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.make-z{
+    width: 76%;
+    border: none;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-form-z{
+    color: white;
+    background-color: #D0004E;
+    border: none;
+    padding: 15px;
+    width: 424px;
+    height: 69px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.bot-menu-calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.ys{
+    background-color: #4dcf2d4b;
+    color: rgb(2, 78, 2);
+}
+
+.ns{
+    background-color: #fa00004b;
+    color: #FF0000;
+}
+
+.btns-infoz{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btns-infoz button{
+padding: 10px 15px;
+color: black;
+border: 1px solid #ADBCF3;
+background-color: white;
+display: flex;
+align-items: center;
+font-size: 18px;
+}
+
+.pz{
+    color: black;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

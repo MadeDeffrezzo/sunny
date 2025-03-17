@@ -1,0 +1,62 @@
+option{
+    color: black;
+    padding: 8px;
+    border: 1px solid #2757FF;
+}
+
+select{
+    color: black;
+    padding: 8px;
+    border: 1px solid #2757FF;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 8px;
+    border: 1px solid #2757FF;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-top: 3px;
+}
+
+.itemzak h1{
+    color: black;
+}
+
+label{
+    color: black;
+    padding: 8px;
+    border: 1px solid #2757FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frm-oform{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    max-width: 300px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    color: black; /* Установите нужный цвет текста */
+}
+
+input[type="text"]::placeholder {
+    color: black; /* Установите нужный цвет для placeholder */
+    opacity: 1; /* Убедитесь, что текст полностью непрозрачный */
+}
